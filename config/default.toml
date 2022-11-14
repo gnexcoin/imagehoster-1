@@ -13,7 +13,7 @@ name = 'imagehoster'
 num_workers = 1
 
 # url to hived node used for verifying signatures
-rpc_node = 'https://api.hive.blog'
+rpc_node = 'http://gnexcoin.com'
 
 # url where service is running
 service_url = 'http://localhost:8800'
@@ -38,7 +38,7 @@ max_image_size = 15000000 # 15mb
 duration = 604800000 # in ms (=1 week)
 max = 300 # max requests within duration
 reputation = 10 # minimum reputation needed for upload
-app_account = 'hive.blog'
+app_account = 'gnexcoin.com'
 
 # blob stores, valid types are: memory, s3
 # the s3 type additionally needs the s3_bucket key to be set and expects
